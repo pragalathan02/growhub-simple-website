@@ -1,0 +1,310 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Roboto Slab", serif;
+}
+
+.navbar {
+    padding: 10px;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    gap: 10px;
+    border-bottom: solid black 1px;
+    align-items: center;
+}
+
+.navbar__s1 {
+    color: violet;
+}
+
+.navbar__s2 {
+    display: flex;
+    gap: 10px;
+    border: solid black 1px;
+    width: 60%;
+    padding: 10px;
+    border-radius: 30px;
+
+}
+
+.navbar__s2 input {
+
+    width: 100%;
+    border: none;
+    font-weight: 600;
+}
+
+
+.navbar__s2 input:focus {
+    outline: none;
+}
+
+.navbar__s3 button {
+    padding: 10px 20px;
+    border: 1px solid blue;
+
+    color: blue;
+    border-radius: 10px;
+    font-weight: 700;
+    cursor: pointer;
+
+}
+
+.navbar__s3 button:hover,
+.navbar__s3 button:active {
+    background-color: red;
+    color: black;
+    transform: scale(0.95);
+}
+
+.navbar__s4 button {
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+
+
+}
+
+.navbar__s4 button:hover,
+.navbar__s4 button:active {
+    transform: scale(0.95);
+}
+
+.navbar__s5 button {
+    padding: 10px;
+    border: solid 2px blue;
+    border-radius: 10px;
+}
+
+.navbar__s5 button:hover,
+.navbar__s5 button:active {
+    transform: scale(0.95);
+
+}
+
+.navibar__s7 p {
+    background-color: rgb(16, 186, 42);
+    color: white;
+    padding: 10px 10px;
+    border: 1px solid;
+    border-radius: 10px;
+
+}
+
+
+
+.image__container {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.image__container img {
+    width: 100%;
+    height: auto;
+    display: block;
+
+}
+
+.promo-box {
+    position: absolute;
+    top: 50%;
+    transform: translatey(-50%);
+    left: 40px;
+    background-color: white;
+    max-width: 440px;
+    padding: 32px;
+    border-radius: 7px;
+    box-shadow: 0 4px 12px black;
+    font-family: Arial, sans-serif;
+}
+
+.promo-box h1 {
+    font-size: 32;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 12px;
+    line-height: 1.2;
+}
+
+.promo-box p {
+    line-height: 1.5;
+    margin-bottom: 25px;
+}
+
+.save-btn {
+
+    color: white;
+    border-radius: 10px;
+    padding: 14px 28px;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.save-btn:hover {
+    background-color: blue;
+}
+
+.container h1 {
+    margin-top: 30px;
+    margin-left: 15px;
+
+}
+
+.container p {
+    margin-top: 5px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+.container__one {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.course__card {
+
+
+
+    box-shadow: 0 4px 12px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px;
+    width: 250px;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+
+
+
+}
+
+.course-card:hover,
+.course-card:active {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.course__card img {
+
+    margin: 0 auto;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 15px;
+    padding: 10px;
+    width: 92%;
+}
+
+.course__card h1 {
+    font-size: medium;
+    font-family: 'poppins', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-weight: 875;
+}
+
+.course__card p {
+    font-family: 'poppins', sans-serif;
+    margin-left: 10px;
+    font-weight: 400;
+
+
+
+}
+
+.course__card button {
+    padding: 11px 90px;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+
+    color: white;
+    font-weight: 600;
+
+}
+
+.course__card button:hover {
+    background-color: green;
+    transform: scale(0.95);
+
+}
+
+.popular__topic {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+
+}
+
+.popular__topic p {
+    padding: 10px 20px;
+    margin-left: 20px;
+    background-color: whitesmoke;
+
+    border-radius: 10px;
+    align-items: center;
+    box-shadow: 0 4px 12px black;
+
+}
+
+.popular__topic :hover {
+    background-color: blue;
+}
+
+.popular {
+    margin: 20px;
+}
+
+.popular h2 {
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    padding: 30px;
+}
+
+.footer__one {
+    display: flex;
+    gap: 30px;
+
+}
+
+.footer__one p {
+    margin: 30px;
+}
+
+.footer__two {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    align-items: center;
+
+}
